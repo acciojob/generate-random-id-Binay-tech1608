@@ -6,7 +6,7 @@ function makeid(l) {
 	for(let i=0; i<l; i++){
 		res += char_list.charAt(
 			Math.floor(
-				Math.random()*char_list.length;
+				Math.random()*(char_list.length-1);
 			)
 		)
 	}
@@ -14,5 +14,6 @@ function makeid(l) {
 }
 
 // Do not change the code below.
+
 const l = prompt("Enter a number.");
 alert(makeid(l));
