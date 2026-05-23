@@ -8,7 +8,7 @@ function makeid(l) {
 			Math.floor(
 				Math.random()*(char_list.length-1);
 			)
-		)
+		);
 	}
 	return res;
 }
